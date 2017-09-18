@@ -38,8 +38,8 @@ app.use(function(req, res) {
 var sendEmail = function (counter) {
 
   let mailOptions = {
-    from: `Node API 😡<contactjittu@gmail.com>`,
-    to: `contactjittu@gmail.com`,
+    from: `Node API 😡<jitendra.kumar@neosofttech.com>`,
+    to: `jitendra.kumar@neosofttech.com`,
     subject: `API Crashed ✖`,
     html: `<pre><b>Hello Jitendra,
       API is crashing ${counter} times?</b></pre>`
